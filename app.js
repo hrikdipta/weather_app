@@ -15,19 +15,19 @@ const defaultCity="kolkata";
 
 function getIcon(weatherCondition){
     if(weatherCondition=="Thunderstorm"){
-        return "./images/Thunderstorm.png";
+        return "./Thunderstorm.png";
     }else if(weatherCondition=="Drizzle"){
-        return "./images/drizzle.png";
+        return "./drizzle.png";
     }else if(weatherCondition=="Rain"){
-        return "./images/rain.png";
+        return "./rain.png";
     }else if(weatherCondition=="Snow"){
-        return "./images/snow.png";
+        return "./snow.png";
     }else if(weatherCondition=="Clear"){
-        return "./images/clear.png";
+        return "./clear.png";
     }else if(weatherCondition=="Clouds"){
-        return "./images/clouds.png";
+        return "./clouds.png";
     }else{
-        return "./images/mist.png";
+        return "./mist.png";
     }
 }
 
